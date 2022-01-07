@@ -1,0 +1,153 @@
+:root {
+  --primary-color: black;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+img {
+  max-width: 100%;
+  /* max-height: 100%; */
+
+}
+section {
+  border: 20px orange solid;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  height: 600px;
+}
+.intro {
+  background-image: url('../images/krystal-ng-1PlVbeOCd78-unsplash.jpg');
+}
+.intro-img {
+  height: 1500px;
+  width: 600px;
+}
+.My-name {
+  margin: 5%;
+  font-size: 80px;
+}
+.left-box {
+  height: 400px;
+  width: 10%;
+  border-right: 20px gray solid;
+  margin-left: 0%;
+  margin-top: 5px;
+}
+
+.right-box {
+  height: 400px;
+  margin: 5%;
+}
+
+#WORK {
+  height: 2000px;
+}
+
+.Work-left {
+  height: 1800px;
+}
+#work-boxs {
+  height: 1800px;
+  max-width: 1200px;
+  flex: 1;
+}
+
+.WORK-img {
+  width: 500px;
+  position:relative;
+
+}
+
+.line-one {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#under-box0 {
+  background-image: url(../images/6459883.jpg);
+  background-size: 1200px 900px;
+  width: 1200px;
+  opacity: 0.75;
+}
+
+.line-two {
+  height: 600px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.under-box1 {
+  background-image: url(../images/5143537.jpg);
+  background-size: 600px 500px;
+  opacity: 0.75;
+}
+
+.text-box {
+  position:absolute;
+  bottom:0;
+  background-color: honeydew;
+}
+
+.under-box2 {
+  background-image: url(../images/beautiful-shot-high-white-hilltops-mountains-covered-fog.jpg);
+  background-size: 600px 600px;
+  opacity: 0.75;
+}
+
+
+.line-three {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.under-box3 {
+  background-image: url(../images/pexels-ravi-kant-4847896.jpg);
+  background-size: 600px 500px;
+  opacity: 0.75;
+}
+
+.under-box4 {
+  background-image: url(../images/pexels-noğman-hatice-9042914.jpg);
+  background-size: 600px 700px;
+  opacity: 0.75;
+}
+
+
+.WORK-img:hover {
+  opacity: 1;
+  height: 800px;
+  width: 120%;
+}
+

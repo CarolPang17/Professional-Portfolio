@@ -107,11 +107,11 @@ section {
   justify-content: space-between;
 }
 
-.under-box1 {
-  background-image: url(../images/5143537.jpg);
+/* .under-box1 {
+  background-image: url(../images/Fridge\ Foods.png);
   background-size: 600px 500px;
-  opacity: 0.75;
-}
+  opacity: 1;
+} */
 
 .text-box {
   position:absolute;
